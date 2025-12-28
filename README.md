@@ -1,6 +1,15 @@
-| **Category** | **Tech** |
-|-------------|---------|
-| Languages | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="16"/> Python · <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="16"/> Java · <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="16"/> JS · SQL · C |
-| Data | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="16"/> Pandas · <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="16"/> Seaborn |
-| DBs | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="16"/> MySQL · Oracle · <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="16"/> MS SQL |
-| Tools | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="16"/> Git · <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="16"/> Linux · VS Code |
+
+
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
+![Json](https://img.shields.io/badge/json-5E5C5C?style=flat&logo=json&logoColor=white)
+![Html](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![Css](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![GNU/Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=flat&logo=git&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat&logo=Adobe%20Photoshop&logoColor=black)
