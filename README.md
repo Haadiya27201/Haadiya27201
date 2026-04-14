@@ -1,155 +1,175 @@
-<!-- Header -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=2da44e&height=200&section=header&text=Iman%20Tumorang&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=@bxcodec%20%7C%20Senior%20Software%20Engineer&descAlignY=55&descColor=ffffff" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>GitHub Profile</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#0d1117;color:#e6edf3;padding:1.5rem 1rem}
+.wrap{max-width:860px;margin:0 auto}
+.header{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:2rem;margin-bottom:14px;text-align:center}
+.avatar{width:80px;height:80px;border-radius:50%;background:#2da44e;display:inline-flex;align-items:center;justify-content:center;font-size:28px;font-weight:500;color:#fff;margin-bottom:12px}
+.name{font-size:22px;font-weight:600;color:#e6edf3;margin-bottom:4px}
+.handle{font-size:13px;color:#8d96a0;margin-bottom:12px}
+.bio{font-size:13px;color:#8d96a0;max-width:420px;margin:0 auto 16px;line-height:1.6}
+.social-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.sbtn{font-size:11px;font-weight:500;padding:5px 12px;border-radius:20px;border:1px solid #30363d;color:#e6edf3;background:#21262d;cursor:pointer;text-decoration:none}
+.sbtn:hover{background:#30363d}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-bottom:12px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:1rem 1.25rem}
+.ctitle{font-size:11px;color:#8d96a0;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:12px}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #21262d;font-size:13px}
+.stat-row:last-child{border-bottom:none}
+.sl{color:#8d96a0}
+.sv{font-weight:500;color:#e6edf3}
+.g{color:#2da44e}
+.b{color:#388bfd}
+.r{color:#f85149}
+.y{color:#d29922}
+.lang-row{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px}
+.ldot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.ln{color:#e6edf3;flex:1}
+.lp{color:#8d96a0;font-size:12px}
+.bw{background:#21262d;border-radius:3px;height:5px;flex:2;overflow:hidden}
+.bf{height:100%;border-radius:3px}
+.contrib{display:flex;gap:2px;flex-wrap:wrap}
+.cc{width:9px;height:9px;border-radius:1px;background:#161b22;border:1px solid #21262d}
+.c1{background:#0e4429;border-color:#0e4429}
+.c2{background:#006d32;border-color:#006d32}
+.c3{background:#26a641;border-color:#26a641}
+.c4{background:#39d353;border-color:#39d353}
+.act{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px}
+.act:last-child{border-bottom:none}
+.adot{width:7px;height:7px;border-radius:50%;margin-top:3px;flex-shrink:0}
+.at{color:#8d96a0;line-height:1.5}
+.at span{color:#2da44e}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px}
+.bgo{background:#0d2b1a;color:#3fb950;border:1px solid #1a4429}
+.bbl{background:#0c2444;color:#58a6ff;border:1px solid #1f3e6e}
+.bgy{background:#2d1f0a;color:#e3b341;border:1px solid #4a3210}
+.bpr{background:#1e1138;color:#bc8cff;border:1px solid #3d2166}
+.streak-nums{display:flex;gap:20px;margin-bottom:12px}
+.sn{text-align:center}
+.sval{font-size:26px;font-weight:600;color:#2da44e}
+.slbl{font-size:11px;color:#8d96a0;margin-top:2px}
+.topic{font-size:11px;padding:3px 9px;border-radius:20px;background:#0c2444;color:#58a6ff;border:1px solid #1f3e6e}
+.topics{display:flex;flex-wrap:wrap;gap:5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+ 
+  <div class="header">
+    <div class="avatar">IT</div>
+    <div class="name">Iman Tumorang</div>
+    <div class="handle">@bxcodec · Jakarta, Indonesia</div>
+    <div class="bio">Senior Software Engineer at Xendit. Passionate about Microservices, Go, and scaling payment systems. OSS DNA.</div>
+    <div class="social-row">
+      <a class="sbtn" href="https://t.me/bxcodec">Telegram</a>
+      <a class="sbtn" href="https://medium.com/@bxcodec">Medium</a>
+      <a class="sbtn" href="https://twitter.com/bxcodec">Twitter</a>
+      <a class="sbtn" href="https://bxcodec.io">bxcodec.io</a>
+    </div>
+  </div>
+ 
+  <div class="grid">
+ 
+    <div class="card">
+      <div class="ctitle">GitHub stats</div>
+      <div class="stat-row"><span class="sl">total stars</span><span class="sv g">4.5k</span></div>
+      <div class="stat-row"><span class="sl">commits (2024)</span><span class="sv">205</span></div>
+      <div class="stat-row"><span class="sl">pull requests</span><span class="sv b">136</span></div>
+      <div class="stat-row"><span class="sl">issues opened</span><span class="sv r">68</span></div>
+      <div class="stat-row"><span class="sl">contributed to</span><span class="sv">12 repos</span></div>
+      <div class="stat-row"><span class="sl">public repos</span><span class="sv">58</span></div>
+    </div>
+ 
+    <div class="card">
+      <div class="ctitle">top languages</div>
+      <div class="lang-row"><span class="ldot" style="background:#00ADD8"></span><span class="ln">Go</span><div class="bw"><div class="bf" style="width:50%;background:#00ADD8"></div></div><span class="lp">50.8%</span></div>
+      <div class="lang-row"><span class="ldot" style="background:#f1e05a"></span><span class="ln">JavaScript</span><div class="bw"><div class="bf" style="width:18%;background:#f1e05a"></div></div><span class="lp">18.2%</span></div>
+      <div class="lang-row"><span class="ldot" style="background:#3178c6"></span><span class="ln">TypeScript</span><div class="bw"><div class="bf" style="width:19%;background:#3178c6"></div></div><span class="lp">18.9%</span></div>
+      <div class="lang-row"><span class="ldot" style="background:#3572A5"></span><span class="ln">Python</span><div class="bw"><div class="bf" style="width:12%;background:#3572A5"></div></div><span class="lp">12.1%</span></div>
+    </div>
+ 
+    <div class="card">
+      <div class="ctitle">streaks & karma</div>
+      <div class="streak-nums">
+        <div class="sn"><div class="sval">10</div><div class="slbl">day streak</div></div>
+        <div class="sn"><div class="sval" style="color:#d29922">2,878</div><div class="slbl">karma pts</div></div>
+        <div class="sn"><div class="sval" style="color:#388bfd">160</div><div class="slbl">tasks done</div></div>
+      </div>
+      <div style="font-size:12px;color:#8d96a0;line-height:2.2">
+        Completed <span style="color:#2da44e;font-weight:600">7</span> tasks today &nbsp;&middot;&nbsp;
+        <span style="color:#2da44e;font-weight:600">16</span> this week &nbsp;&middot;&nbsp;
+        Longest streak <span style="color:#d29922;font-weight:600">10</span> days
+      </div>
+    </div>
+ 
+    <div class="card">
+      <div class="ctitle">contribution graph</div>
+      <div class="contrib" id="cg"></div>
+      <div style="display:flex;align-items:center;gap:4px;margin-top:8px;font-size:11px;color:#8d96a0">
+        less
+        <div class="cc"></div><div class="cc c1"></div><div class="cc c2"></div><div class="cc c3"></div><div class="cc c4"></div>
+        more
+      </div>
+    </div>
+ 
+    <div class="card">
+      <div class="ctitle">recent activity</div>
+      <div class="act"><div class="adot" style="background:#2da44e"></div><div class="at">Opened PR <span>#3845</span> in webpack/webpack.js.org</div></div>
+      <div class="act"><div class="adot" style="background:#388bfd"></div><div class="at">Commented on <span>#7</span> in madlabsinc/teachcode</div></div>
+      <div class="act"><div class="adot" style="background:#bc8cff"></div><div class="at">Merged PR <span>#64</span> in jamesgeorge007/Crypt</div></div>
+      <div class="act"><div class="adot" style="background:#bc8cff"></div><div class="at">Merged PR <span>#181</span> in madlabsinc/mevn-cli</div></div>
+      <div class="act"><div class="adot" style="background:#f85149"></div><div class="at">Closed issue <span>#180</span> in madlabsinc/mevn-cli</div></div>
+    </div>
+ 
+    <div class="card">
+      <div class="ctitle">tech stack & badges</div>
+      <div class="badges">
+        <span class="badge bgo">Go</span>
+        <span class="badge bgo">Microservices</span>
+        <span class="badge bbl">React</span>
+        <span class="badge bbl">TypeScript</span>
+        <span class="badge bbl">PostgreSQL</span>
+        <span class="badge bgy">AWS</span>
+        <span class="badge bgy">Docker</span>
+        <span class="badge bpr">Open Source</span>
+        <span class="badge bpr">gRPC</span>
+      </div>
+      <div style="margin-top:14px">
+        <div class="ctitle" style="margin-bottom:8px">starred topics</div>
+        <div class="topics">
+          <span class="topic">golang</span>
+          <span class="topic">payments</span>
+          <span class="topic">api-design</span>
+          <span class="topic">docker</span>
+          <span class="topic">kubernetes</span>
+          <span class="topic">aws</span>
+          <span class="topic">clean-arch</span>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
 </div>
-
----
-
-<!-- Intro -->
-<div align="center">
-
-### Hi! I'm Iman! 👋
-
-Right now I'm working as a **Senior Software Engineer** at [Xendit](https://www.xendit.co/), mainly focused on payment systems such as Virtual Account, Retail Outlet, Ewallet, and Direct Debit. I love solving scaling problems from a product perspective and helping engineers move faster without being blocked by manual processes.
-
-[![Telegram](https://img.shields.io/badge/Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bxcodec)
-[![YouTube](https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@bxcodec)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@bxcodec)
-[![Twitter](https://img.shields.io/badge/Twitter-1da1f2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/bxcodec)
-[![Website](https://img.shields.io/badge/Website-2da44e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://bxcodec.io)
-
-</div>
-
----
-
-## 🌱 My Values
-
-- 🤔 Passionate about Startup culture, *"Move Fast and Fix Things"*, with expertise in **Software Architecture**, **Microservices**, **API Development**, and **Go (Golang)**
-- 😎 OSS DNA — I love contributing to open source
-- 🚀 Silver bullets don't exist — product thinking + engineering excellence = scale
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bxcodec&show_icons=true&theme=default&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bxcodec&layout=compact&theme=default&langs_count=6" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=bxcodec&theme=default&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" />
-</div>
-
----
-
-## ⚡ Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bxcodec&theme=github-compact&hide_border=true" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bxcodec&theme=flat&no-frame=true&column=7&margin-w=8" />
-</div>
-
----
-
-## 💻 Tech Stack
-
-**Languages**
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white)
-
-**Backend & Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758f?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-dc382d?style=flat-square&logo=redis&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-e10098?style=flat-square&logo=graphql&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-**DevOps & Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-## 🌟 Starred Topics
-
-![Microservices](https://img.shields.io/badge/-Microservices-2da44e?style=flat-square&labelColor=2da44e&color=2da44e&logoColor=white)
-![API Design](https://img.shields.io/badge/-API%20Design-0969da?style=flat-square)
-![System Design](https://img.shields.io/badge/-System%20Design-8957e5?style=flat-square)
-![Clean Architecture](https://img.shields.io/badge/-Clean%20Architecture-cf222e?style=flat-square)
-![Open Source](https://img.shields.io/badge/-Open%20Source-d29922?style=flat-square)
-![Golang](https://img.shields.io/badge/-Golang-00ADD8?style=flat-square)
-![Payments](https://img.shields.io/badge/-Payments-2da44e?style=flat-square)
-
----
-
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [How To Do Pagination in Postgres with Golang in 4 Common Ways](https://medium.com/@bxcodec/how-to-do-pagination-in-postgres-with-golang-4-common-ways-12365b9fb528)
-- [Clean Architecture with Go](https://medium.com/@bxcodec/go-clean-arch-v2-1b1e2a3e4c68)
-- [Understanding Golang Channels](https://medium.com/@bxcodec/understanding-golang-channel-926c9e9c1c8b)
-<!-- BLOG-POST-LIST:END -->
-
-➡ [More posts on Medium...](https://medium.com/@bxcodec)
-
-> 💡 To auto-update blog posts, add the [blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow) GitHub Action.
-
----
-
-## 🏅 Highlights
-
-| Badge | Description |
-|---|---|
-| ❄ Arctic Code Vault Contributor | Contributed code to the 2020 GitHub Archive Program |
-| ⭐ PRO | GitHub Pro subscriber |
-| 🤝 3 Sponsors | Supported by the community |
-
----
-
-## 📈 Profile Stats
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=bxcodec&color=2da44e&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/bxcodec?style=flat-square&color=2da44e&label=Followers)
-![Stars](https://img.shields.io/github/stars/bxcodec?style=flat-square&color=d29922&label=Total+Stars)
-
-</div>
-
----
-
-## 📬 Connect With Me
-
-| Platform | Link |
-|---|---|
-| 🏢 Company | [Xendit](https://www.xendit.co/) |
-| 📍 Location | Jakarta, Indonesia |
-| 📧 Email | iman@tumorang.com |
-| 🌐 Website | [bxcodec.io](https://bxcodec.io) |
-| 🐦 Twitter | [@bxcodec](https://twitter.com/bxcodec) |
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=2da44e&height=100&section=footer" />
-</div>
+ 
+<script>
+const grid = document.getElementById('cg');
+const peaks = [0,0,0,1,0,0,1,0,1,2,1,0,0,1,2,3,4,3,2,1,0,0,0,1,0,0,0,0,1,2,1,0,0,1,1,2,3,4,4,3,2,1,0,0,0,0,1,2,3,2,1,1];
+for (let w = 0; w < 52; w++) {
+  const p = peaks[w] || 0;
+  for (let d = 0; d < 7; d++) {
+    const r = Math.random();
+    const v = p===0?(r<0.7?0:1):p===1?(r<0.3?0:r<0.7?1:2):p===2?(r<0.2?1:r<0.6?2:3):p===3?(r<0.1?2:r<0.5?3:4):4;
+    const c = document.createElement('div');
+    c.className = 'cc' + (v ? ' c'+v : '');
+    grid.appendChild(c);
+  }
+}
+</script>
+</body>
+</html>
