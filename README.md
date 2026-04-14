@@ -1,57 +1,17 @@
-name: Metrics
-on:
-  schedule: [{cron: "0 */12 * * *"}]
-  workflow_dispatch:
+## 📊 GitHub Metrics Dashboard
 
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+<table>
+<tr>
+<td width="50%">
 
-          # 🎨 Base
-          user: haadiya-hasan
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: Asia/Kolkata
+<img src="https://metrics.lecoq.io/haadiya-hasan?template=classic&theme=dark&base.header=1&base.activity=1&base.community=1&base.repositories=1&config.timezone=Asia%2FKolkata&plugin_languages=1&plugin_languages_limit=6&plugin_languages_sections=most-used&plugin_habits=1&plugin_habits_days=14&plugin_habits_facts=1&plugin_lines=1" />
 
-          # 📊 Languages
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
+</td>
 
-          # 📅 Activity graph
-          plugin_activity: yes
+<td width="50%">
 
-          # 🔥 Streak / habits
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
+<img src="https://metrics.lecoq.io/haadiya-hasan?template=classic&theme=dark&base=0&config_timezone=Asia/Kolkata&plugin_isocalendar=1&plugin_isocalendar_duration=half-year&plugin_music=1&plugin_music_provider=apple&plugin_music_limit=2&plugin_projects=1&plugin_projects_limit=1&plugin_followup=1" />
 
-          # 📆 Contributions calendar (3D blocks style)
-          plugin_isocalendar: yes
-
-          # 🎵 Music (yes that random Apple Music thing)
-          plugin_music: yes
-          plugin_music_provider: apple
-          plugin_music_limit: 2
-
-          # 📈 Lines of code, commits
-          plugin_lines: yes
-
-          # ⭐ Stars, followers
-          plugin_followup: yes
-
-          # 📌 Featured repo section
-          plugin_projects: yes
-          plugin_projects_limit: 1
-
-          # ⚡ Achievements
-          plugin_achievements: yes
-
-          # 🧠 Coding habits per time of day
-          plugin_wakatime: no
+</td>
+</tr>
+</table>
