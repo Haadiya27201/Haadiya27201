@@ -1,39 +1,65 @@
-## 📊 GitHub Metrics Dashboard
+<!-- Header -->
+<h1>Hi! I'm Haadiya 👋</h1>
 
-<table>
-<tr>
-<td width="50%">
+<p>
+🎓 Data Science & AI Student <br>
+💻 Exploring Machine Learning, Data Analysis & Systems <br>
+🌱 Learning something new every day (or pretending to)
+</p>
 
-<img src="https://metrics.lecoq.io/haadiya-hasan?template=classic&theme=dark&base.header=1&base.activity=1&base.community=1&base.repositories=1&config.timezone=Asia%2FKolkata&plugin_languages=1&plugin_languages_limit=6&plugin_languages_sections=most-used&plugin_habits=1&plugin_habits_days=14&plugin_habits_facts=1&plugin_lines=1" />
+---
 
-</td>
+## 🌿 About Me
 
-<td width="50%">
+Right now, I'm focused on building a strong foundation in **data science, programming, and problem-solving**.  
+I enjoy working on projects that are simple, clean, and actually useful.
 
-<img src="https://metrics.lecoq.io/haadiya-hasan?template=classic&theme=dark&base=0&config_timezone=Asia/Kolkata&plugin_isocalendar=1&plugin_isocalendar_duration=half-year&plugin_music=1&plugin_music_provider=apple&plugin_music_limit=2&plugin_projects=1&plugin_projects_limit=1&plugin_followup=1" />
+I like understanding *why things work*, not just making them work.
 
-</td>
-</tr>
-</table>
+---
 
-## 📊 GitHub Metrics Dashboard
+## ✨ My Values
 
-<table>
-<tr>
-<td width="50%">
+- 🚀 Curious mindset — always exploring and learning  
+- 🧠 Problem-solving over memorization  
+- 🧩 Clean and structured code  
+- 📈 Growth > perfection  
 
-<img src="https://raw.githubusercontent.com/haadiya-hasan/haadiya-hasan/main/github-metrics.svg" />
+---
 
-</td>
+## 📊 GitHub Stats
 
-<td width="50%">
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=haadiya-hasan&show_icons=true&theme=default" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haadiya-hasan&layout=compact" width="48%" />
+</p>
 
-<img src="https://raw.githubusercontent.com/haadiya-hasan/haadiya-hasan/main/github-metrics.svg" />
+---
 
-</td>
-</tr>
-</table>
+## 🧰 Tech Stack
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/haadiya-hasan/haadiya-hasan/main/github-metrics.svg" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,html,css,mysql,git,github,vscode,linux" />
+</p>
+
+---
+
+## ✍️ Currently Working On
+
+- Strengthening **Python & SQL fundamentals**
+- Practicing **data analysis & visualization**
+- Building small but meaningful projects
+
+---
+
+## 🤝 Connect
+
+- 💼 LinkedIn: https://www.linkedin.com/in/haadiya-hasan-6197b2387/
+- 🐦 X: https://x.com/haadiyxx
+- 📧 Email: hasan.haadiya@gmail.com
+
+---
+
+<p>
+<i>Minimal. Curious. Always learning.</i>
 </p>
