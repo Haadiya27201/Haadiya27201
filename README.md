@@ -1,3 +1,4 @@
+![Profile Views](https://komarev.com/ghpvc/?username=haadiya-hasan)
 <!-- Header -->
 <h1>Hi! I'm Haadiya 👋</h1>
 
